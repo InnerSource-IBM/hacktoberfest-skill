@@ -41,7 +41,10 @@ hacktoberfest-skill/
 ├── README.md
 ├── HACKTOBERFEST_SETUP_PROMPT.md   # The skill prompt
 └── assets/
-    └── pumpkin.svg                 # Our Hacktoberfest pumpkin
+    ├── pumpkin.svg                 # Our Hacktoberfest pumpkin
+    ├── pumpkin-emoji-128.png       # Custom emoji for Slack, Discord, or Teams
+    ├── pumpkin-emoji-64.png        # Small icon size
+    └── pumpkin-emoji-512.png       # High-resolution master
 ```
 
 ---
@@ -154,6 +157,12 @@ The skill gets your repo discoverable. These steps make it welcoming:
 - **Pin your best starter issues** to the top of the repo.
 - **Check your `CONTRIBUTING.md`** and make sure setup instructions actually work for a newcomer.
 - **Announce it** in your community channels, at a local [Hacktoberfest Fest](https://hacktoberfest.com/fests/), or on DEV.
+
+---
+
+## <img src="assets/pumpkin.svg" alt="" height="24"> Bring the pumpkin to your community
+
+Want the pumpkin in your own Slack, Discord, or Teams? Upload [`assets/pumpkin-emoji-128.png`](assets/pumpkin-emoji-128.png) as a custom emoji (for example, `:hacktoberfest-pumpkin:`) and use it when you announce your Hacktoberfest-ready issues.
 
 ---
 

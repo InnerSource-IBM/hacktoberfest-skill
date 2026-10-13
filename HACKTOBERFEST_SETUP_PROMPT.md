@@ -1,6 +1,10 @@
-# Hacktoberfest Prompt for IBM Bob (github.com)
+<p align="center">
+  <img src="assets/pumpkin.svg" alt="Hacktoberfest pumpkin" width="96">
+</p>
 
-Use this prompt with IBM Bob to prepare any GitHub repository on `github.com` for Hacktoberfest participation.
+# <img src="assets/pumpkin.svg" alt="" height="32"> Hacktoberfest Setup Prompt (github.com)
+
+Use this prompt with IBM Bob, Claude Code, or any AI coding agent that can run shell commands to prepare any GitHub repository on `github.com` for Hacktoberfest participation.
 
 ---
 

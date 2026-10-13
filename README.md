@@ -19,7 +19,7 @@ The skill walks your AI coding agent through a guided, step-by-step workflow tha
 3. 🔎 Pulls your open issues from a lookback window you choose (6 months, 12 months, or all time)
 4. 🧠 Triages each issue into **Recommended**, **Possible**, or **Not recommended** based on labels, scope, clarity, and assignment status
 5. 🙋 Shows you the list and **waits for your approval** before touching anything
-6. 🟠 Creates the `hacktoberfest` label if needed and applies it only to the issues you choose
+6. <img src="assets/pumpkin.svg" alt="" height="16"> Creates the `hacktoberfest` label if needed and applies it only to the issues you choose
 7. 📋 Ends with a summary and next steps
 
 Nothing is changed on your repository without your explicit "yes."
@@ -44,7 +44,8 @@ hacktoberfest-skill/
     ├── pumpkin.svg                 # Our Hacktoberfest pumpkin
     ├── pumpkin-emoji-128.png       # Custom emoji for Slack, Discord, or Teams
     ├── pumpkin-emoji-64.png        # Small icon size
-    └── pumpkin-emoji-512.png       # High-resolution master
+    ├── pumpkin-emoji-512.png       # High-resolution master
+    └── social-preview.png          # Link preview image for sharing
 ```
 
 ---
@@ -111,7 +112,7 @@ Ask your agent to run the Hacktoberfest skill. It will ask you for the `owner/re
 
 ---
 
-## What a run looks like
+## <img src="assets/pumpkin.svg" alt="" height="24"> What a run looks like
 
 After triage, you'll see something like this before any labels are applied:
 

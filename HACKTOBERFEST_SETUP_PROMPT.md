@@ -152,7 +152,7 @@ Summary: X issues recommended, Y possible, Z skipped.
 ---
 
 ### Step 8 — Apply `hacktoberfest` Labels
-1. Ensure the `hacktoberfest` label exists on `ORG/REPO` (Color: `#ff6a00`, Description: `"Good for Hacktoberfest contributors"`).
+1. Ensure the `hacktoberfest` label exists on `ORG/REPO` (Color: `#fe7d28`, Description: `"Good for Hacktoberfest contributors"`).
    - Check label:
      ```bash
      curl -s -H "Authorization: Bearer $(cat .bob/skills/hacktoberfest/.ghtoken)" \
@@ -166,7 +166,7 @@ Summary: X issues recommended, Y possible, Z skipped.
        -H "Accept: application/vnd.github+json" \
        -H "Content-Type: application/json" \
        "https://api.github.com/repos/ORG/REPO/labels" \
-       -d '{"name":"hacktoberfest","color":"ff6a00","description":"Good for Hacktoberfest contributors"}'
+       -d '{"name":"hacktoberfest","color":"fe7d28","description":"Good for Hacktoberfest contributors"}'
      ```
 2. Apply the `hacktoberfest` label only to the issues I explicitly approved:
    ```bash

@@ -39,7 +39,7 @@ That makes a well-prepared repo more valuable, not less. Contributors who show u
 ```
 hacktoberfest-skill/
 ├── README.md
-├── HACKTOBERFEST_SETUP-PROMPT.md   # The skill prompt
+├── HACKTOBERFEST_SETUP_PROMPT.md   # The skill prompt
 └── assets/
     └── pumpkin.svg                 # Our Hacktoberfest pumpkin
 ```
@@ -72,10 +72,10 @@ Pick the agent you already use. Don't have one? [Try IBM Bob free](https://bob.i
 
 ```bash
 mkdir -p .bob/skills/hacktoberfest
-cp hacktoberfest-skill/HACKTOBERFEST_SETUP-PROMPT.md .bob/skills/hacktoberfest/
+cp hacktoberfest-skill/HACKTOBERFEST_SETUP_PROMPT.md .bob/skills/hacktoberfest/
 ```
 
-**Claude Code:** create a skill folder and save the fenced prompt block from `HACKTOBERFEST_SETUP-PROMPT.md` as `SKILL.md`, with a short frontmatter header so Claude knows when to use it:
+**Claude Code:** create a skill folder and save the fenced prompt block from `HACKTOBERFEST_SETUP_PROMPT.md` as `SKILL.md`, with a short frontmatter header so Claude knows when to use it:
 
 ```bash
 mkdir -p .claude/skills/hacktoberfest
